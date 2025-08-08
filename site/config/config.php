@@ -57,7 +57,7 @@ c::set('home', 'journal');
 c::set('markdown.extra', true);
 
 c::set('loadmore', 5);
-c::set('fingerprint', true);
+// c::set('fingerprint', true);
 
 c::set('columns.container', 'kirby-row');
 c::set('columns.item', 'col');

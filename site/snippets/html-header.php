@@ -62,6 +62,40 @@ endif; ?><?php
 
 	echo css('assets/css/main.journal.css');
 	?>
+    <style>
+        @font-face {
+            font-family: 'WindsorPro';
+            src: url('/assets/fonts/WindsorPro-Regular.woff2') format('woff2');
+            font-style: normal;
+            font-weight: bold;
+            text-rendering: optimizeLegibility;
+        }
+        @font-face {
+            font-family: 'WindsorPro';
+            src: url('/assets/fonts/WindsorPro-Bold.woff2') format('woff2');
+            font-style: normal;
+            font-weight: bold;
+            text-rendering: optimizeLegibility;
+        }
+
+        * {
+            font-family: 'WindsorPro', sans-serif !important;
+            color: #0986BF !important;
+        }
+        #home {
+            font-size: 34px;
+        }
+        #journal-intro {
+            font-size: 16px;
+            line-height: 21px;
+            max-width: 92ch;
+            margin: 0 auto;
+            padding-bottom: 5rem;
+        }
+        header nav.row .col>div.prefix {
+            height: auto !important;
+        }
+    </style>
 
 	<!-- LoadJS: https://github.com/muicss/loadjs -->
   <?php

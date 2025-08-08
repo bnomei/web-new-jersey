@@ -1,6 +1,6 @@
-# http://www.journal-g.de/robots.txt
+# http://www.new-jersey.am/robots.txt
 
-Sitemap: http://www.journal-g.de/sitemap/
+Sitemap: http://www.new-jersey.am/sitemap/
 User-agent: *
 Disallow: /kirby/
 Disallow: /panel/

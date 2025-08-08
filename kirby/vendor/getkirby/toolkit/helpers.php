@@ -103,7 +103,7 @@ function ecco($condition, $value, $alternative = null) {
  * @param boolean $echo
  * @return string
  */
-function dump($variable, $echo = true) {
+function xdump($variable, $echo = true) {
   if(r::cli()) {
     $output = print_r($variable, true) . PHP_EOL;
   } else {

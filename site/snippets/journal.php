@@ -5,6 +5,10 @@
 
   <main id="main" role="main" class="row">
 
+      <header id="journal-intro">
+          <?php echo $page->text()->kirbytext() ?>
+      </header>
+
 	<section id="__<?php echo $page->uid() ?>" class="<?php echo $page->template()!='default'?'T__'.$page->template():'' ?>">
 		<?php
 		$tag = param('sortby');

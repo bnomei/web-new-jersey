@@ -169,7 +169,7 @@ updateFlickity = (sel) ->
 #----------------------------------------
 # DOCUMENT LOAD
 $ ->
-	preloadImg '/assets/images/journal-g.png'
+	preloadImg '/assets/images/new-jersey.png'
 	preloadImg '/assets/images/white.png'
 	preloadImg '/assets/images/light.png'
 	preloadImg '/assets/images/pink.png'

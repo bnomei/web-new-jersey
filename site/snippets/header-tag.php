@@ -11,7 +11,7 @@
 		?>
 		<div class="col">
 			<div class="prefix">&nbsp;</div>
-			<div id="home" class="button journal"><a href="<?php echo $pa->url() ?>">&nbsp;journal g&nbsp;</a></div>
+			<div id="home" class="button journal"><a href="<?php echo $pa->url() ?>">&nbsp;N‘J&nbsp;</a></div>
 			<?php if($page->is($j)):
 				$tagcloud = tagcloud(page($j), array('sort'=>'name', 'sortdir' => 'asc'));
 				if($tagcloud->count() > 0):

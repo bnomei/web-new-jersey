@@ -56,7 +56,7 @@ RewriteRule ^(.*) index.php [L]
 <IfModule mod_rewrite.c>
 	RewriteEngine On
 	RewriteCond %{HTTP_REFERER} !:\/\/([^.]+\.|)buero-g.de
-	RewriteCond %{HTTP_REFERER} !:\/\/([^.]+\.|)journal-g.de
+	RewriteCond %{HTTP_REFERER} !:\/\/([^.]+\.|)new-jersey.am
 	RewriteRule \.(eot|woff|svg|ttf)$ - [F]
 </IfModule>
 <IfModule mod_headers.c>
