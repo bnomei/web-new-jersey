@@ -1,0 +1,7 @@
+# http://www.journal-g.de/robots.txt
+
+Sitemap: http://www.journal-g.de/sitemap/
+User-agent: *
+Disallow: /kirby/
+Disallow: /panel/
+Disallow: /site/

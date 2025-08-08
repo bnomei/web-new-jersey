@@ -1,0 +1,13 @@
+title: Journal
+deletable: false
+icon: home
+pages:
+  sort: flip
+  num: date
+  template:
+  	- serie
+files: false
+fields:
+  title: 
+    label: Titel
+    type:  text

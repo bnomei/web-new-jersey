@@ -1,0 +1,29 @@
+title: Website Config File
+pages: default
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 1/2
+  description:
+    label: Description
+    type:  textarea
+    width: 1/2
+  keywords:
+    label: Keywords
+    type:  tags
+    width: 1/2
+  footertag:
+    label: Footer
+    type:  textarea
+    width: 1/2
+  line-a:
+    type: line
+  author:
+    label: Author
+    type:  text
+    width: 1/2
+  ganalytics:
+    label: Google Analytics
+    type:  text
+    width: 1/2

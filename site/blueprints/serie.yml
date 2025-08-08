@@ -1,0 +1,23 @@
+title: Serie
+pages: false
+icon: camera
+files:
+  #sanitize: false
+  sortable: true
+fields:
+  title:
+    label: Title
+    type:  text
+  tags:
+    label: Tags
+    type:  tags
+    lowercase: true
+  date:
+    label: Date
+    type: date
+    default: now
+    width: 1/2
+  text:
+    label: Text
+    type:  textarea
+    size:  large
