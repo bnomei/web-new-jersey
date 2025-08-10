@@ -11,3 +11,7 @@ fields:
   title: 
     label: Titel
     type:  text
+  text:
+    label: Text
+    type:  textarea
+    size:  large

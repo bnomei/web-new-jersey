@@ -95,6 +95,9 @@ endif; ?><?php
         header nav.row .col>div.prefix {
             height: auto !important;
         }
+        .container {
+            padding: 0 1rem;
+        }
     </style>
 
 	<!-- LoadJS: https://github.com/muicss/loadjs -->
